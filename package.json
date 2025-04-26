@@ -1,0 +1,19 @@
+{
+  "name": "solarized-light-v2",
+  "displayName": "solarized light v2",
+  "description": "Customized solarized light based off base 16 for syntax highlighting",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Solarized Light v2",
+        "uiTheme": "vs",
+        "path": "./themes/solarized-light-v2.json"
+      }
+    ]
+  }
+}
